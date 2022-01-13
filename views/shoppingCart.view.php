@@ -34,7 +34,7 @@
 				<!--end cart total -->
 				<!-- cart buttons -->
 				<div class="cart-buttons-container mt-3 d-flex justify-content-between">
-					<a @click="closeCart" href="#allItems" id="clear-cart" class="btn btn-outline-secondary btn-black text-uppercase">Verder
+					<a @click="closeCart" href="<?php echo "index.php?page=items#allItems"?>" id="clear-cart" class="btn btn-outline-secondary btn-black text-uppercase">Verder
 						Winkelen</a>
 					<a href="#" class="btn btn-outline-secondary text-uppercase btn-pink">Bestellen</a>
 				</div>
