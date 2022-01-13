@@ -16,7 +16,7 @@
 
 							<li class="nav-item">
 								<a class="nav-link active text-white fs-2" aria-current="page"
-									href="#allItems">Producten</a>
+									href="<?php echo "index.php?page=items#allItems"?>" >Producten</a>
 							</li>
 
 							<li class="nav-item dropdown">
