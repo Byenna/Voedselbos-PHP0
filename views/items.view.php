@@ -12,12 +12,13 @@
                             <h5 class="card-title"><?php echo $fruit['title'] ?></h5>
                             <p class="card-text"><?php echo $fruit['description'] ?></p>
                             <p class="card-text">Prijs: €  <?php echo $fruit['price'] ?></p>
-                            <a href="#" class="btn btn-primary">Bestel</a>
+                            <a href="#" class="buttonItem btn btn-primary">Bestel</a>
                         </div>
                         </div>
 
                     <?php endforeach; ?>
-                    </div>
+                
+                </div>
 				</div> 
 			</section>
 		</div>
