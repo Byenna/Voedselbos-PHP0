@@ -1,6 +1,6 @@
 <?php
 
-$fruits = [
+return  [
     [
         'id' => 1,
         'title' => "Zoete kersen",
